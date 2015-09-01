@@ -1,0 +1,2 @@
+# bearychatHook4zentao
+实现将禅道中的动态通知给bearychat
