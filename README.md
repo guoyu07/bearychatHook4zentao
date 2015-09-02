@@ -48,6 +48,7 @@
 		curl_setopt($ch, CURLOPT_URL, $url);
 		curl_setopt($ch, CURLOPT_POST, 1);
 		curl_setopt($ch, CURLOPT_POSTFIELDS, $str);
+		curl_setopt($ch, CURLOPT_TIMEOUT, 1);
 		
 		if (substr($url, 0, 8) == "https://")
 		{
